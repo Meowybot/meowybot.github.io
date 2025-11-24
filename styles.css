@@ -10,8 +10,20 @@ p {
   color: blue;
 }
 
-a {
+a:link {
   color: red;
+}
+
+a:visited {
+  color: #FF4400;
+}
+
+a:hover {
+  color: #FF9900;
+}
+
+a:active {
+  color: #000000;
 }
 
 body{
