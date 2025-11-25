@@ -1,32 +1,27 @@
-h1 {
-  color: green;
-  text-shadow: 5px, 5px, 3px, #FF0000;
-}
-
-h2 {
+.text-green {
   color: green;
 }
 
-p {
+.text-blue {
   color: blue;
 }
 
-a:link {
+.hyper-red:link {
   color: red;
 }
 
-a:visited {
+.hyper-red:visited {
   color: #FF4400;
 }
 
-a:hover {
+.hyper-red:hover {
   color: #FF9900;
 }
 
-a:active {
+.hyper-red:active {
   color: #000000;
 }
 
-body{
+.body-pink{
   background-color: pink;
 }
