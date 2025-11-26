@@ -1,3 +1,5 @@
+/*Straightforward names*/
+
 .display-block {
   display: block;
 }
@@ -34,6 +36,8 @@
   background-color: aquamarine;
 }
 
+/*Special effects*/
+
 @keyframes anim-shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   25% { transform: translate(-1px, 0px) rotate(-1deg); }
@@ -45,3 +49,5 @@
 .effects-shaky {
   animation: anim-shake 0.2s infinite;
 }
+
+/*Premade classes*/
