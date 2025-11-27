@@ -1,43 +1,35 @@
-/*Straightforward names*/
+/*Custom Styles*/
 
-.display-block {
+a.meowy {
   display: block;
 }
 
-.color-green {
+h1.meowy {
   color: green;
 }
 
-.color-blue {
+p.meowy {
   color: blue;
 }
 
-.hyper-red:link {
+a.meowy:link {
   color: red;
 }
 
-.hyper-red:visited {
+a.meowy:visited {
   color: #FF4400;
 }
 
-.hyper-red:hover {
+a.meowy:hover {
   color: #FF9900;
 }
 
-.hyper-red:active {
+a.meowy:active {
   color: #000000;
 }
 
-.bgcol-pink {
+body.meowy {
   background-color: pink;
-}
-
-.bgcol-aquamarine {
-  background-color: aquamarine;
-}
-
-.bgcol-lightgray {
-  background-color: LightGray;
 }
 
 /*Special effects*/
@@ -54,4 +46,4 @@
   animation: anim-shake 0.2s infinite;
 }
 
-/*Premade classes*/
+/*Styles for all of one element*/
