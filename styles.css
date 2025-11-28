@@ -57,6 +57,16 @@ div.meowy {
   width: 100%;
 }
 
+@media (prefers-color-scheme: dark) {
+  body.meowy {
+    background-color: purple;
+  }
+  
+  div.meowy {
+    background-color: purple;
+  }
+}
+
 /*Special effects*/
 
 @keyframes anim-shake {
