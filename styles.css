@@ -1,5 +1,7 @@
 /*Styles for all of one element*/
 
+/* Meowy*/
+
 p {
   max-width: 64ch;
 }
@@ -62,6 +64,19 @@ div.meowy {
   background-color: pink;
   width: 100%;
 }
+
+/*Dark-Contrast*/
+
+.DarCon {
+  background-color: black;
+  color: white;
+}
+
+div.DarCon {
+  width: 100%;
+}
+
+/*DARK MODE*/
 
 @media (prefers-color-scheme: dark) {
   h1.meowy {
