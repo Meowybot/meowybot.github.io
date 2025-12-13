@@ -76,11 +76,6 @@ div.DarCon {
   width: 100%;
 }
 
-img.to200px {
-  width: 200px;
-  height: auto;
-}
-
 /*DARK MODE*/
 
 @media (prefers-color-scheme: dark) {
