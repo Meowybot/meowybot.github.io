@@ -6,6 +6,10 @@ div {
   width: 100%;
 }
 
+div.meowy {
+  background-color: LightPink;
+}
+
 @keyframes anim-shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   25% { transform: translate(-1px, 0px) rotate(-1deg); }
