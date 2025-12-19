@@ -10,6 +10,42 @@ div.meowy {
   background-color: LightPink;
 }
 
+@media (prefers-color-scheme: dark) {
+  div.meowy {
+    background-color: #30061d;
+  }
+}
+
+p.meowy {
+  color: blue;
+}
+
+h1.meowy {
+  color: green;
+}
+
+h2.meowy {
+  color: green;
+}
+
+h3.meowy {
+  color: green;
+}
+
+h4.meowy {
+  color: green;
+}
+
+h5.meowy {
+  color: green;
+}
+
+h6.meowy {
+  color: green;
+}
+
+/* Effects */
+
 @keyframes anim-shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   25% { transform: translate(-1px, 0px) rotate(-1deg); }
