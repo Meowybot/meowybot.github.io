@@ -20,6 +20,12 @@ p.meowy {
   color: blue;
 }
 
+@media (prefers-color-scheme: dark) {
+  p.meowy {
+    color: #00FFFF;
+  }
+}
+
 h1.meowy {
   color: green;
 }
@@ -42,6 +48,32 @@ h5.meowy {
 
 h6.meowy {
   color: green;
+}
+
+@media (prefers-color-scheme: dark) {
+  h1.meowy {
+    color: #00FF00;
+  }
+
+  h2.meowy {
+    color: #00FF00;
+  }
+
+  h3.meowy {
+    color: #00FF00;
+  }
+
+  h4.meowy {
+    color: #00FF00;
+  }
+
+  h5.meowy {
+    color: #00FF00;
+  }
+
+  h6.meowy {
+    color: #00FF00;
+  }
 }
 
 .block {
