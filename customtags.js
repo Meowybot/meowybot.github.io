@@ -10,4 +10,17 @@ class MeowyPagesNav extends HTMLElement {
   }
 }
 
+class MeowyUnfinished extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      <div style="background-color: #363736;">
+      <h5 style="color: red;">WARNING</h5>
+      <p style="color: #FF0000;">
+      THIS SITE IS UNFINISHED
+      </p>
+      </div>
+    `;
+  }
+}
+
 customElements.define('meowy-pagenav', MeowyPagesNav);
