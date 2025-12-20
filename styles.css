@@ -87,11 +87,17 @@ a.meowy {
 }
 
 .meowy::selection {
-  background-color: #FFFF00
+  background-color: #FFFF00;
 }
 
 .block {
   display: block;
+}
+
+.highler {
+  background-color: #FFFF00;
+  mix-blend-mode: multiply;
+  color: #000000;
 }
 
 /* Effects */
