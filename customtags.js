@@ -14,7 +14,7 @@ class MeowyUnfinished extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <div style="background-color: #363736;">
-      <h5 style="color: red;">WARNING</h5>
+      <b style="color: red;">WARNING</b>
       <p style="color: #FF0000;">
       THIS SITE IS UNFINISHED
       </p>
