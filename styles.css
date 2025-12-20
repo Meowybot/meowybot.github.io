@@ -76,6 +76,16 @@ h6.meowy {
   }
 }
 
+a.meowy {
+  color: purple;
+}
+
+@media (prefers-color-scheme: dark) {
+  a.meowy {
+    color: #FF00FF;
+  }
+}
+
 .block {
   display: block;
 }
