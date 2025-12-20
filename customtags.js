@@ -24,3 +24,4 @@ class MeowyUnfinished extends HTMLElement {
 }
 
 customElements.define('meowy-pagenav', MeowyPagesNav);
+customElements.define('meowy-unfinish', MeowyUnfinished);
