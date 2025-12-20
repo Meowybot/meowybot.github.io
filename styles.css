@@ -86,6 +86,10 @@ a.meowy {
   }
 }
 
+.meowy::selection {
+  background-color: #FFFF00
+}
+
 .block {
   display: block;
 }
