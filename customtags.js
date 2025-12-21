@@ -1,3 +1,5 @@
+// customtags.js
+
 class MeowyPagesNav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -5,6 +7,7 @@ class MeowyPagesNav extends HTMLElement {
       <a href="/" style="color: white;">Main Page</a>
       <a href="/games" style="color: white;">My Games</a>
       <a href="/csstest" style="color: white;">CSS Tests</a>
+      <a href="/oldA" style="color: white;">first version</a>
       </nav>
     `;
   }
@@ -23,5 +26,34 @@ class MeowyUnfinished extends HTMLElement {
   }
 }
 
+class MeowyInPageLinkNav extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      <nav style="background-color: #333333;">
+      <slot></slot>
+      </nav>
+    `;
+  }
+}
+
+class MeowyInPageShortNav extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      <nav style="background-color: #444444;">
+      <slot></slot>
+      </nav>
+    `;
+  }
+}
+
+// TODO:
+// Add switch to spanish button
+// Add footer
+// Learn js
+
 customElements.define('meowy-pagenav', MeowyPagesNav);
 customElements.define('meowy-unfinish', MeowyUnfinished);
+customElements.define('meowy-linknav', MeowyInPageLinkNav);
+customElements.define('meowy-shortnav', MeowyInPageShortNav);
+
+// what this does is it defines custom headers for page
