@@ -46,6 +46,30 @@ class MeowyInPageShortNav extends HTMLElement {
   }
 }
 
+class MeowySpanishButton extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      <a href="es">
+      <button>
+      Español Spanish
+      </button>
+      </a>
+    `;
+  }
+}
+
+class MeowyEnglishButton extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      <a href="../">
+      <button>
+      English Ingles
+      </button>
+      </a>
+    `;
+  }
+}
+
 // TODO:
 // Add switch to spanish button
 // Add footer
@@ -53,7 +77,7 @@ class MeowyInPageShortNav extends HTMLElement {
 
 customElements.define('meowy-pagenav', MeowyPagesNav);
 customElements.define('meowy-unfinish', MeowyUnfinished);
-customElements.define('meowy-linknav', MeowyInPageLinkNav);
-customElements.define('meowy-shortnav', MeowyInPageShortNav);
+customElements.define('meowy-es', MeowySpanishButton);
+customElements.define('meowy-en', MeowyEnglishButton);
 
 // what this does is it defines custom headers for page
