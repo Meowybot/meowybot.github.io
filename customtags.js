@@ -92,5 +92,6 @@ customElements.define('meowy-pagenav', MeowyPagesNav);
 customElements.define('meowy-unfinish', MeowyUnfinished);
 customElements.define('meowy-es', MeowySpanishButton);
 customElements.define('meowy-en', MeowyEnglishButton);
+customElements.define('meowy-old', MeowyOldButton);
 
 // what this does is it defines custom headers for page
