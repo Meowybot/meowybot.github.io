@@ -70,6 +70,19 @@ class MeowyEnglishButton extends HTMLElement {
   }
 }
 
+class MeowyOldButton extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      <button onclick="
+      document.querySelectorAll('.meowy').forEach(el => {el.classList.remove('meowy');
+      el.classList.add('meowyold'); })
+      ">
+      Light Mode (Old)
+      </button>
+    `;
+  }
+}
+
 // TODO:
 // Add switch to spanish button
 // Add footer
