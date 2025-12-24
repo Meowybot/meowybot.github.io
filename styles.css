@@ -19,20 +19,16 @@ div.meowyold {
   background-color: LightPink;
 }
 
-@media (prefers-color-scheme: dark) {
-  div.meowy {
-    background-color: #30061d;
-  }
+div.meowy {
+  background-color: #30061d;
 }
 
 p.meowyold {
   color: blue;
 }
 
-@media (prefers-color-scheme: dark) {
-  p.meowy {
-    color: #00FFFF;
-  }
+p.meowy {
+  color: #00FFFF;
 }
 
 h1.meowyold {
@@ -59,40 +55,36 @@ h6.meowyold {
   color: green;
 }
 
-@media (prefers-color-scheme: dark) {
-  h1.meowy {
-    color: #00FF00;
-  }
+h1.meowy {
+  color: #00FF00;
+}
 
-  h2.meowy {
-    color: #00FF00;
-  }
+h2.meowy {
+  color: #00FF00;
+}
 
-  h3.meowy {
-    color: #00FF00;
-  }
+h3.meowy {
+  color: #00FF00;
+}
 
-  h4.meowy {
-    color: #00FF00;
-  }
+h4.meowy {
+  color: #00FF00;
+}
 
-  h5.meowy {
-    color: #00FF00;
-  }
+h5.meowy {
+  color: #00FF00;
+}
 
-  h6.meowy {
-    color: #00FF00;
-  }
+h6.meowy {
+  color: #00FF00;
 }
 
 a.meowyold {
   color: purple;
 }
 
-@media (prefers-color-scheme: dark) {
-  a.meowy {
-    color: #FF00FF;
-  }
+a.meowy {
+  color: #FF00FF;
 }
 
 .meowyold::selection {
@@ -106,7 +98,6 @@ a.meowyold {
 
 .highler {
   background-color: #FFFF00;
-  mix-blend-mode: multiply;
   color: #000000;
 }
 
