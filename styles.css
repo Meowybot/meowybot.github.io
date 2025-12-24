@@ -6,7 +6,12 @@ div {
   width: 100%;
 }
 
-div.meowy {
+nav {
+  width: 100%;
+  overflow-x: auto;
+}
+
+div.meowyold {
   background-color: LightPink;
 }
 
@@ -16,7 +21,7 @@ div.meowy {
   }
 }
 
-p.meowy {
+p.meowyold {
   color: blue;
 }
 
@@ -26,27 +31,27 @@ p.meowy {
   }
 }
 
-h1.meowy {
+h1.meowyold {
   color: green;
 }
 
-h2.meowy {
+h2.meowyold {
   color: green;
 }
 
-h3.meowy {
+h3.meowyold {
   color: green;
 }
 
-h4.meowy {
+h4.meowyold {
   color: green;
 }
 
-h5.meowy {
+h5.meowyold {
   color: green;
 }
 
-h6.meowy {
+h6.meowyold {
   color: green;
 }
 
@@ -76,7 +81,7 @@ h6.meowy {
   }
 }
 
-a.meowy {
+a.meowyold {
   color: purple;
 }
 
@@ -86,7 +91,7 @@ a.meowy {
   }
 }
 
-.meowy::selection {
+.meowyold::selection {
   background-color: #FFFF00;
   color: black;
 }
