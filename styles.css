@@ -11,6 +11,10 @@ nav {
   overflow-x: auto;
 }
 
+button {
+  font-size: 19px;
+}
+
 div.meowyold {
   background-color: LightPink;
 }
