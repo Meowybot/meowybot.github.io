@@ -83,8 +83,21 @@ class MeowyOldButton extends HTMLElement {
   }
 }
 
+class MeowyNewButton extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+      <button onclick="
+      document.querySelectorAll('.meowyold').forEach(el => {el.classList.remove('meowyold');
+      el.classList.add('meowy'); })
+      ">
+      Dark mode (New)
+      </button>
+    `;
+  }
+}
+
 // TODO:
-// Add switch to spanish button
+// Add Spanish versions for already existing elements
 // Add footer
 // Learn js
 
@@ -93,5 +106,6 @@ customElements.define('meowy-unfinish', MeowyUnfinished);
 customElements.define('meowy-es', MeowySpanishButton);
 customElements.define('meowy-en', MeowyEnglishButton);
 customElements.define('meowy-old', MeowyOldButton);
+customElements.define('meowy-new', MeowyNewButton);
 
 // what this does is it defines custom headers for page
