@@ -20,7 +20,6 @@ body {
   border-radius: 0 0 10px 10px;
 }
 
-#navbar p, 
-#navbar a {
+#navbar p, #navbar a {
   color: white;
 }
