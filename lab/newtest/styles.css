@@ -12,6 +12,9 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   display: flex;
+  align-items: center;
+  padding: 0 15px;
+  gap: 2ch;
   white-space: nowrap;
   background: linear-gradient(to bottom, #212121, #676767);
   border-radius: 0 0 10px 10px;
