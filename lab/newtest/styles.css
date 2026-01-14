@@ -19,3 +19,8 @@ body {
   background: linear-gradient(to bottom, #212121, #676767);
   border-radius: 0 0 10px 10px;
 }
+
+#navbar p, 
+#navbar a {
+  color: white;
+}
