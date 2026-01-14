@@ -14,5 +14,5 @@ body {
   display: flex;
   white-space: nowrap;
   background: linear-gradient(to bottom, #212121, #676767);
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 10px 10px;
 }
