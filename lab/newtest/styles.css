@@ -13,5 +13,6 @@ body {
   overflow-y: hidden;
   display: flex;
   white-space: nowrap;
-  background: #777777;
+  background: linear-gradient(to bottom, black, #999999);
+  border-radius: 0 0 20px 20px;
 }
