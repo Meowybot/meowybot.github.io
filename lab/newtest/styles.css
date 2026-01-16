@@ -32,6 +32,12 @@ body {
   background-color: black;
 }
 
+#welcome {
+  position: absolute;
+  top: 63px;
+  width: 90%;
+}
+
 /*class*/
 
 .glass {
