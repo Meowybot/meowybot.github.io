@@ -38,4 +38,9 @@ body {
   border-radius: 9px;
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
+  color: white;
+}
+
+.glass p, .glass a {
+  color:white;
 }
