@@ -1,6 +1,10 @@
+/*element*/
+
 body {
   padding-top: 60px;
 }
+
+/*id*/
 
 #navbar {
   position: fixed;
@@ -22,4 +26,12 @@ body {
 
 #navbar p, #navbar a {
   color: white;
+}
+
+/*class*/
+
+.glass {
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
 }
