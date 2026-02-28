@@ -42,7 +42,7 @@ body {
 
 .glass {
   border-radius: 9px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(127, 127, 150, 0.3);
   backdrop-filter: blur(10px);
   color: white;
 }
@@ -50,7 +50,7 @@ body {
 .glass p, .glass a, .glass h1 {
   color:white;
   text-align: center;
-  -webkit-text-stroke: 0.5px black;
+  -webkit-text-stroke: 0.2px black;
 }
 
 p, a {
