@@ -29,7 +29,7 @@ body {
 }
 
 #mainpart {
-  background-color: black;
+  background-color: #AECCDD;
   width: 100%;
 }
 
@@ -43,7 +43,7 @@ body {
 
 .glass {
   border-radius: 9px;
-  background: rgba(127, 127, 150, 0.3);
+  background: rgba(64, 64, 89, 0.3);
   backdrop-filter: blur(10px);
   color: white;
 }
