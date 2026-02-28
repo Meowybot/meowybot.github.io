@@ -30,12 +30,13 @@ body {
 
 #mainpart {
   background-color: black;
+  width: 100%;
 }
 
 #welcome {
   position: absolute;
   top: 67px;
-  width: 90%;
+  width: 100%;
 }
 
 /*class*/
