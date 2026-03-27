@@ -45,8 +45,7 @@ a {
 .darkdiv {
   background-color: black;
   border-radius: 35px;
-  border-color: white;
-  border-width: 5px;
+  border: 2px solid white;
 }
 
 .centertext {
