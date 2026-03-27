@@ -1,1 +1,27 @@
-/*NO STYLES yET*/
+p {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 999;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.darktext {
+  color: #112211;
+  -webkit-text-stroke: 0.3px #EEEEEE;
+}
+
+.lighttext {
+  color: #EEDDEE;
+  -webkit-text-stroke: 0.3px #111111;
+}
