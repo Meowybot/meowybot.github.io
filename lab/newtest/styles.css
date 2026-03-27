@@ -1,7 +1,11 @@
+body.dark {
+  background-color: black;
+}
+
 p {
   font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -16,6 +20,10 @@ h1, h2, h3, h4, h5 ,h6 {
     "wdth" 100;
 }
 
+a {
+  text-decoration: none;
+}
+
 .darktext {
   color: #112211;
   -webkit-text-stroke: 0.3px #EEEEEE;
@@ -24,4 +32,43 @@ h1, h2, h3, h4, h5 ,h6 {
 .lighttext {
   color: #EEDDEE;
   -webkit-text-stroke: 0.3px #111111;
+}
+
+.underlinetext {
+  text-decoration: underline;
+}
+
+.lightunderline {
+  text-decoration-color: #EEDDEE;
+}
+
+.darkdiv {
+  background-color: black;
+  border-radius: 35px;
+  border-color: white;
+  border-width: 5px;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.rowdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.transparentdiv {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.imagefull {
+  max-width: 100%;
+  height: auto;
+}
+
+.roundedcorners {
+  border-radius: 17px;
 }
